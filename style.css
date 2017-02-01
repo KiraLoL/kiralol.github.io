@@ -1,0 +1,212 @@
+/* Global Variables */
+/* End Global Variables */
+/*Body and html */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: cursive; }
+
+body, .page-content, .content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0; }
+
+.loaded-page.content {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: hidden; }
+
+* {
+  box-sizing: border-box; }
+
+/* End body and html*/
+/* Nav */
+.navbar {
+  background-color: #272727;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10; }
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .navbar li {
+    display: inline-block;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 20px;
+    font-size: 20px; }
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    padding: 0; }
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top; }
+
+.navbar .navbar-inverse .navbar-fixed-top {
+  background-image: none;
+  background-color: none;
+  text-align: center; }
+
+.navbar-inverse {
+  background-image: none;
+  background-color: none;
+  border-bottom: none; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #5d656d; }
+
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  background-color: #5d656d; }
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #272727; }
+
+/* End Nav */
+/*Jumbotron*/
+.jumbotron {
+  background: linear-gradient(rgba(0, 255, 0, 0.45), rgba(92, 200, 243, 0.45)), url(images/jumbo.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+  .jumbotron h1 {
+    color: white;
+    font-weight: 600; }
+  .jumbotron h2 {
+    color: white;
+    font-weight: 500;
+    font-size: 20px; }
+  .jumbotron .container {
+    text-align: center; }
+  .jumbotron .btn {
+    background-color: rgba(92, 200, 243, 0.45);
+    color: white;
+    padding: 20px 35px;
+    border: 1px solid white;
+    text-transform: none;
+    font-weight: bold;
+    font-size: 20px; }
+    .jumbotron .btn a {
+      color: white; }
+  .jumbotron .btn:hover {
+    background-color: rgba(195, 47, 52, 0.45);
+    color: white;
+    transition: all 3s ease; }
+  .jumbotron .go-left {
+    float: left;
+    background-color: transparent;
+    border: none; }
+  .jumbotron .go-right {
+    float: right;
+    background-color: transparent;
+    border: none; }
+  .jumbotron .glyphicon {
+    color: white;
+    font-size: 25px; }
+
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center; }
+
+/*End Jumbotron*/
+/* Projects */
+.projects {
+  text-align: center;
+  background: white;
+  margin-top: 35px; }
+  .projects .text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+  .projects p {
+    font-size: 20px; }
+  .projects img {
+    padding: 0;
+    border: none;
+    margin-bottom: 35px;
+    width: 350px;
+    height: 250px; }
+  .projects h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px; }
+
+/* End Projects */
+/* Contact */
+.contact {
+  background-color: black; }
+
+/* End Contact */
+/*Expertise*/
+.expertise {
+  text-align: center;
+  background: white; }
+  .expertise li {
+    text-align: left; }
+  .expertise h3 {
+    font-size: 30px; }
+  .expertise p {
+    font-size: 17px; }
+  .expertise img {
+    margin-top: 75px; }
+
+/*End Expertise*/
+/*Footer*/
+footer {
+  background: #272727;
+  text-align: left;
+  color: white; }
+  footer h4 {
+    text-transform: none; }
+  footer p {
+    font-size: 20px; }
+  footer .copy {
+    float: right;
+    margin: 30px 0;
+    display: hide; }
+  footer .left {
+    float: left;
+    margin: 30px 0;
+    width: 49%; }
+  footer .right {
+    float: right;
+    margin: 30px 0;
+    width: 49%;
+    text-align: center; }
+  footer a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600; }
+  footer .right img {
+    width: 50px;
+    height: 50px; }
+  footer .linked img {
+    margin-left: 20px;
+    width: 125px;
+    background-color: #272727; }
+  footer .light {
+    font-weight: 200; }
+  footer .right a {
+    text-decoration: none;
+    color: white;
+    display: inline-block; }
+  footer .git {
+    margin-left: 20px;
+    background-color: #272727; }
+
+/* End Footer */
+
+/*# sourceMappingURL=style.css.map */
